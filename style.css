@@ -1,0 +1,461 @@
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+body{
+
+    font-family:'Open Sans', sans-serif;
+
+    background:white;
+
+    color:#333;
+
+}
+
+/* HEADER */
+
+header{
+
+    background:white;
+
+}
+
+.top-header{
+
+    height:82px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 40px;
+
+}
+
+/* LOGO */
+
+.logo img{
+
+    width:205px;
+
+    display:block;
+
+}
+
+/* BOTÓN ENTRAR */
+
+.login-btn{
+
+    background:#5f9fc9;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:8px 18px;
+
+    border-radius:2px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+.login-btn:hover{
+
+    opacity:0.9;
+
+}
+
+/* LÍNEA AZUL */
+
+.blue-line{
+
+    width:100%;
+
+    height:2px;
+
+    background:#5f9fc9;
+
+}
+
+/* CONTENIDO */
+
+.container{
+
+    width:92%;
+
+    margin:18px auto;
+
+}
+
+/* BREADCRUMB */
+
+.breadcrumb{
+
+    font-size:13px;
+
+    margin-bottom:14px;
+
+}
+
+.breadcrumb a{
+
+    color:#5f9fc9;
+
+    text-decoration:none;
+
+}
+
+.breadcrumb span{
+
+    color:#5f9fc9;
+
+    margin-left:4px;
+
+}
+
+/* TÍTULO */
+
+h1{
+
+    font-size:46px;
+
+    font-weight:700;
+
+    color:#222;
+
+    margin-bottom:18px;
+
+    padding-bottom:10px;
+
+    border-bottom:1px solid #e7e7e7;
+
+    letter-spacing:-1px;
+
+    line-height:1.02;
+
+}
+
+/* LISTA */
+
+.certificate-list{
+
+    list-style:none;
+
+}
+
+.certificate-list li{
+
+    font-size:22px;
+
+    margin-bottom:4px;
+
+    line-height:1.28;
+
+    letter-spacing:-0.3px;
+
+}
+
+.certificate-list strong{
+
+    color:#111;
+
+}
+
+/* LINKS */
+
+.certificate-list a{
+
+    color:#5f9fc9;
+
+    text-decoration:none;
+
+}
+
+.certificate-list a:hover{
+
+    text-decoration:underline;
+
+}
+
+/* VERIFICADO */
+
+.verified{
+
+    margin-top:25px;
+
+    background:#edf7df;
+
+    border:1px solid #d8e9bd;
+
+    color:#5f5f5f;
+
+    min-height:58px;
+
+    border-radius:2px;
+
+    font-size:18px;
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+/* CUADRO VERDE */
+
+.verified::before{
+
+    content:"";
+
+    width:58px;
+
+    align-self:stretch;
+
+    background:#2f7d32;
+
+    display:block;
+
+    margin-right:18px;
+
+}
+
+/* FOOTER */
+
+footer{
+
+    margin-top:60px;
+
+    background:#3e3e3e;
+
+    color:white;
+
+    padding:55px 65px;
+
+}
+
+.footer-content{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    gap:40px;
+
+    flex-wrap:wrap;
+
+}
+
+/* IZQUIERDA */
+
+.footer-left{
+
+    width:60%;
+
+}
+
+.footer-left h2{
+
+    font-size:19px;
+
+    margin-bottom:16px;
+
+    font-weight:700;
+
+}
+
+.footer-left p{
+
+    font-size:17px;
+
+    line-height:1.6;
+
+    font-weight:600;
+
+}
+
+/* DERECHA */
+
+.footer-right h3{
+
+    font-size:18px;
+
+    margin-bottom:14px;
+
+}
+
+.footer-right ul{
+
+    padding-left:18px;
+
+}
+
+.footer-right li{
+
+    margin-bottom:6px;
+
+    font-size:17px;
+
+}
+
+/* LINKS FOOTER */
+
+.footer-right a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:700;
+
+}
+
+.footer-right a:hover{
+
+    text-decoration:underline;
+
+}
+
+/* COPYRIGHT */
+
+.copyright{
+
+    text-align:center;
+
+    margin-top:45px;
+
+    font-size:15px;
+
+    color:#e5e5e5;
+
+}
+
+/* REDES */
+
+.social-icons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:14px;
+
+    margin-top:25px;
+
+}
+
+.social-icons a{
+
+    width:42px;
+
+    height:42px;
+
+    background:white;
+
+    color:#3e3e3e;
+
+    border-radius:4px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:20px;
+
+    text-decoration:none;
+
+}
+
+.social-icons a:hover{
+
+    opacity:0.85;
+
+}
+
+/* LINKS INFERIORES */
+
+.footer-bottom-links{
+
+    margin-top:70px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+
+}
+
+.footer-bottom-links a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:16px;
+
+    font-weight:700;
+
+}
+
+.footer-bottom-links a:hover{
+
+    text-decoration:underline;
+
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    .top-header{
+
+        padding:0 20px;
+
+    }
+
+    .logo img{
+
+        width:160px;
+
+    }
+
+    h1{
+
+        font-size:34px;
+
+    }
+
+    .certificate-list li{
+
+        font-size:17px;
+
+    }
+
+    footer{
+
+        padding:30px;
+
+    }
+
+    .footer-left,
+
+    .footer-right{
+
+        width:100%;
+
+    }
+
+}
